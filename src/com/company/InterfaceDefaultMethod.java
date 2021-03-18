@@ -62,7 +62,7 @@ class MySmartPhone extends BasicPhone implements Camera, Wifi, Gallery{     //st
     }
 
     @Override
-    public void showTime() {        //override parent method is NOT COMPULSORY
+    public void showTime() {        //override parent(Inheritance) method is NOT COMPULSORY
         System.out.println("Time is 12:00am");
     }
 
