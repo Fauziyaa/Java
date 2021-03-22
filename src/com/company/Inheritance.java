@@ -2,6 +2,7 @@ package com.company;
 
 class Base{
     int x;
+    private int z;
 
     public int getX() {
         return x;
@@ -37,5 +38,7 @@ public class Inheritance {
         System.out.println(d.getX());      //Derived class object can access base class method
         System.out.println(d.getY());
         System.out.println(d.x);
+//        System.out.println(d.z);  //Can't access Private members
+
     }
 }

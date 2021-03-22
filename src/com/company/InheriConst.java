@@ -35,9 +35,9 @@ public class InheriConst {
 //        Base1 b = new Base1();        //Call base1's default constructor
 //        Base1 b2 = new Base1(10);
 //        Derived1 d = new Derived1();
-//        Derived1 d1 = new Derived1(10, 20);
+        Derived1 d1 = new Derived1(10, 20);
 //        ChildOfDerived cd = new ChildOfDerived();
-        ChildOfDerived cd = new ChildOfDerived(98,88,72);
+//        ChildOfDerived cd = new ChildOfDerived(98,88,72);
 
 
     }

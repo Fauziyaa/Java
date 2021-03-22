@@ -41,6 +41,8 @@ public class AbstractC {
         Child1 c1 = new Child1();
 //        Child2 c2 = new Child2(); //Can't make object of abstract class
         c1.a = 10;      //Can modify properties of abstract class
+        c1.greet();
+        c1.sayHi();
         Parent cp = new Child1();
         cp.greet();
         cp.sayHi();
