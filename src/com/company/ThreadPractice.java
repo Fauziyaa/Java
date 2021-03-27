@@ -68,6 +68,8 @@ public class ThreadPractice {
     System.out.println("State of Thread 1 is: "+t1.getState());
     System.out.println("State of Thread 2 is: "+t2.getState());
 
+//    System.out.println(Thread.currentThread());
+
 
     }
 }
